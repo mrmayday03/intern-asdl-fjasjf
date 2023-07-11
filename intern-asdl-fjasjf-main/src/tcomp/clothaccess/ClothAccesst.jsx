@@ -3,11 +3,9 @@ import DashBoardNav from '../dashbaordNav/DashBoardNav';
 import './ClothAccess.css';
 import './Cards.css';
 import backbtn from '../../assets/icons/back button.svg';
-import caution from '../../assets/icons/warning_.svg';
 import filter from '../../assets/icons/filter icon.svg';
 import downChevron from '../../assets/icons/scroll arrow.svg';
 import Cards from './Cards';
-import SideNavbar from '../sideNavBar/SideNavBar';
 import Sidebar from '../../components/Sidebar';
 
 const ClothAccess = () => {
@@ -34,7 +32,7 @@ const ClothAccess = () => {
 
 
     <div className="parent">
-    <Sidebar />
+      <Sidebar />
 
     
         <div className={`cloth-access-container ${showNav ? '' : 'hide-nav'}`}>

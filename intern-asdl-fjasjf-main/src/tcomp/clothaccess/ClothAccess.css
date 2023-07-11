@@ -2,6 +2,7 @@
   .parent {
     display: flex;
     justify-content: flex-end;
+    position: relative;
   
   }
   .sidebar{

@@ -31,7 +31,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="w-1/5  bg-blue-700 rounded-r-3xl flex flex-col z-50 t-0">
+    <div className="w-1/5  bg-blue-700 rounded-r-3xl flex flex-col">
       <div className="mt-3 mb-10 flex items-center">
         <p className="font-bold text-white text-center w-full mb-8 text-lg">LOGO HERE</p>
       </div>

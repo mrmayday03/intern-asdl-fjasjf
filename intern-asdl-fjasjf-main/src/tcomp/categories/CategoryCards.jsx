@@ -19,10 +19,10 @@ const CategoryCards = () => {
     <DashBoardNav/>
     <Sidebar/>
       <div className="category-cards">
-        <div className="card-type">
+        <div className="card-type ">
           <p className="card-title">Categories</p>
 
-          <div className="column">
+          <div className="column ">
             <div className="category-item r">
               <div className="content r">
                 <img src={cloth} className="content-img" alt="cloth" />
