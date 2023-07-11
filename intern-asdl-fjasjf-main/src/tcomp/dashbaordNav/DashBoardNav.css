@@ -1,0 +1,60 @@
+.nav {
+    height: 14%;
+    width: 100%;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    border-radius: 0 0 5% 0;
+    top: 0;
+    position: fixed;
+    left: 0;
+  }
+  
+  .scan-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-left: 10rem;
+  }
+  
+  .user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+  }
+  
+  .role {
+    text-decoration: underline;
+    color: #3251CD;
+    
+  }
+  
+  #line {
+    width: 0.50px;
+    height: 40px; /* Adjust the height as needed */
+    background-color: black;
+    margin-right: 10px; /* Optional margin */
+  }
+  
+  #round {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #e3dfdf;
+    /* Optional: Add content alignment */
+    text-align: center;
+    line-height: 20px;
+  }
+  
+
+  .downChevron{
+    height: 4px;
+    margin-left: -6px;
+    margin-top: 9px;
+  }
