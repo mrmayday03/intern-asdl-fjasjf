@@ -6,7 +6,7 @@ import downChevron from '../../assets/icons/scroll arrow.svg';
 const DashBoardNav = () => {
   return (
     <>
-        <div className="nav">
+        <div className="nav rounded-br-2xl">
         
             <div className="scan-detail">
                 <p>Last Scan 07.11.2027</p>

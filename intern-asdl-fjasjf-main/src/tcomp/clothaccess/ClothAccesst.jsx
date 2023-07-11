@@ -30,11 +30,15 @@ const ClothAccess = () => {
 
   return (
     <>
-      <Sidebar />
-      <div className="parent">
+      <DashBoardNav />
+
+
+    <div className="parent">
+    <Sidebar />
+
+    
         <div className={`cloth-access-container ${showNav ? '' : 'hide-nav'}`}>
 
-          <DashBoardNav />
           <div className="cloth-access-content">
             <div className="cloth-access-left-header">
               <img src={backbtn} alt="" />
