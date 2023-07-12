@@ -1,15 +1,18 @@
-import React from "react";
-import "./header.css";
+import React from 'react';
 
 const Header = () => {
   return (
-    <div className="header">
-        <header className="bg-gray-200 p-10 rounded-br-2xl flex-1 flex flex-col items-center justify-between"> {/* Header */}
-            <p className='text-right font-bold'>Last Scan- 07-02-2023,05:34 PM</p>
-            <img src="person.svg" className='h-10 ml-auto' />
-            <p className='font-bold pl-10'>John Doe</p>
-        </header>
-    </div>
+    <header className="bg-white py-4 px-10 rounded-xl">
+      <div className="container mx-auto flex justify-between items-center">
+        <div className="flex items-center">
+          <p className="text-sm px-10">Last Scan 07.11.2027</p>
+          <p className="text-sm px-10">05:34 PM</p>
+          <p className="text-sm px-10">Store ID -7943</p>
+        </div>
+          <p className="text-sm underline">Store Supervisor</p>
+          <p className="text-sm">John Doe</p>
+      </div>
+    </header>
   );
 };
 

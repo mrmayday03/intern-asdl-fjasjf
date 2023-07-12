@@ -44,9 +44,9 @@ const Sidebar = () => {
           onClick={() => handleItemClick(index)}
           role="button"
         >
-          <img src={`${item.image}`} alt={item.title} className={`w-6 h-6 mr-2 ${
-              activeIndex === index ? "filter brightness-0" : ""
-            }`} />
+          <img src={`/${item.image}`} alt={item.title} className={`w-6 h-6 mr-2 ${
+            activeIndex === index ? "filter brightness-0" : ""
+          }`} />
           <span
             className={`${
               activeIndex === index ? "text-blue-500" : "text-white"

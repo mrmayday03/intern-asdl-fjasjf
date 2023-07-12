@@ -21,7 +21,8 @@ const App = () => {
     //   </Routes>
     // </Router>
     // <DashBoardNav/>
-    <CategoriesPage />
+    // <CategoriesPage />
+    <ClothAccess />
 
   );
 };

@@ -1,3 +1,4 @@
+// ClothAccess.jsx
 import React, { useEffect, useState } from 'react';
 import DashBoardNav from '../dashbaordNav/DashBoardNav';
 import './ClothAccess.css';
@@ -29,14 +30,9 @@ const ClothAccess = () => {
   return (
     <>
       <DashBoardNav />
-
-
-    <div className="parent">
-      <Sidebar />
-
-    
+      <div className="parent">
+        <Sidebar />
         <div className={`cloth-access-container ${showNav ? '' : 'hide-nav'}`}>
-
           <div className="cloth-access-content">
             <div className="cloth-access-left-header">
               <img src={backbtn} alt="" />

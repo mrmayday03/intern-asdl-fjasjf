@@ -4,9 +4,13 @@ import Sidebar from '../components/Sidebar'
 
 const MainDash = () => {
   return (
-    <div>
+    <div className='flex h-screen'>
+      <Sidebar />
+      <div className='flex-1 flex flex-col rounded-lg-2xl'>
         <Header />
-        <Sidebar />
+      </div>
+
+  
     </div>
   )
 }
