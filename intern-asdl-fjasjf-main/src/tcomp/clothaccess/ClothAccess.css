@@ -4,6 +4,7 @@
   position: relative;
 }
 
+<<<<<<< HEAD
 .sidebar {
   width: 20%;
 }
@@ -15,6 +16,52 @@
   z-index: -10;
   position: relative;
 }
+=======
+  .parent {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+   
+  
+  }
+  .sidebar{
+    width: 20%;
+
+  }
+
+  .cloth-access-container {
+    width: 80%;
+    background-color: #ECF2FF;
+    height: 100vh;
+    margin-right: -1rem;
+    z-index: -10;
+    position: relative;
+
+  }
+  .cloth-access-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 18vh;
+ 
+  }
+  
+  
+  
+  .cloth-access-left-header, .cloth-access-right-content {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the spacing between the elements */
+    margin-right: 30px; 
+    color: #566D86;
+
+  }
+
+  .cloth-access-left-header img{
+    margin-left:1rem ;
+  }
+>>>>>>> a61837a3c50e5aea4eeb8495655f08d9bce7dfb0
 
 .cloth-access-content {
   display: flex;

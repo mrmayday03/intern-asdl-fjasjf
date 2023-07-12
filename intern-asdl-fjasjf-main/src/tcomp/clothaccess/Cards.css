@@ -5,7 +5,11 @@
     position: relative;
     display: flex;
     justify-content: space-around;
+<<<<<<< HEAD
     top: 22vh;
+=======
+    top: 20vh;
+>>>>>>> a61837a3c50e5aea4eeb8495655f08d9bce7dfb0
     margin-bottom: 1rem;
 
 
